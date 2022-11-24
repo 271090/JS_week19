@@ -17,4 +17,4 @@ class Worker {
   //console.log(worker1.surname); 
 //console.log(worker1.rate); 
 //console.log(worker1.days); 
-//console.log(worker1.getSalary()); 
+console.log(worker1.getSalary()); 
