@@ -35,26 +35,26 @@
         <div>
             <label for="breed"> Порода вашего питомца: </label><br />
             <select id="breed">
-                <option value="first option"> Британец</option>
-                <option value="second option"> Сиамский</option>
-                <option value="third option"> Мейн-кун</option>
-                <option value="fourth option"> Сфинкс </option>
-                <option value="fifth option"> Другая </option>
+                <option value="Британец"> Британец</option>
+                <option value="Сиамский "> Сиамский</option>
+                <option value="Мейн-кун"> Мейн-кун</option>
+                <option value="Сфинкс"> Сфинкс </option>
+                <option value="Другая"> Другая </option>
             </select>
         </div>
     
 
     <div>
-        <label for="eat"> Чем питается: </label><br />
-        <input type="checkbox" id="eat"> сухой корм </input><br />
-        <input type="checkbox" id="eat"> влажный корм </input><br />
-        <input type="checkbox" id="eat"> натуральный корм </input><br />
+        <label for="food"> Чем питается: </label><br />
+        <input type="checkbox" id="food" name="food" value="сухой корм"> сухой корм </input><br />
+        <input type="checkbox" id="food" name="food" value="влажный корм"> влажный корм </input><br />
+        <input type="checkbox" id="food" name="food" value="натуральный корм"> натуральный корм </input><br />
     </div>
 
 
     <div>
         <label for="sex"> Пол вашего питомца </label><br />
-        Самка <input type="radio" name="sex" /> <br /> Самец <input type="radio" name="sex" />
+        Самка <input type="radio" name="sex" value="Самка"/> <br /> Самец <input type="radio" name="sex" value="Самец"/>
     </div>
 
 
@@ -70,7 +70,9 @@
         <input type="file" id="foto" name="foto" required />
     </div>
 
-    <button type="button" id="button"> Сохранить </button>
+    <button type="submit" id="button"> Сохранить </button>
+
+    <script src="/src/scripts/cats_2.js"></script>
 </body>
 
 </html>
